@@ -4,7 +4,7 @@
 
 | Rank | Failure | Trust Tag | Frequency | Severity |
 |---|---|---|---|---|
-| 1 | _(not set)_ | #HALLUCINATION | 7/20, HIGH | _(not set)_ |
+| 1 | _(not set)_ | #HALLUCINATION | 7/20, HIGH | P0 |
 | 2 | Wrong List of Speakers | #HALLUCINATION | 7/20, HIGH | P1 |
 | 3 | Brand Voice Missrepresenatation | #UX_TRUST | 1/20, LOW | P2 |
 
