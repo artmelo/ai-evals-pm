@@ -1,6 +1,6 @@
 # AI Evaluation Strategy Canvas
 
-> Repo file `ai-evals/01-evaluation-strategy/strategy-canvas.md` (the repo is your submission).
+> Repo file `ai-evals-pm/01-evaluation-strategy/strategy-canvas.md` (the repo is your submission).
 
 ## 1. Product Strategy, The Context
 
