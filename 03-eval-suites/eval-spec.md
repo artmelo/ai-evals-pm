@@ -2,11 +2,13 @@
 
 | Part | Spec |
 |---|---|
-| Target risk | [from my spec] |
-| Evaluator | [from my spec] |
-| Threshold | [from my spec, with what supports it] |
-| Business stakes | [from my spec] |
-| Owner | [from my spec] |
+| Target risk | Wrong Pricing (#HALLUCINATION), an output risk |
+| Evaluator | The rule check from Lab 1 |
+| Threshold | 100% of known outdated pricing cases must be caught, with zero false alarms on verified correct pricing. Any missed P0 pricing hallucination blocks release. |
+| Business stakes | Outdated pricing can mislead enterprise decisions, damage client trust, and put $50K+ annual subscriptions at risk during rollout to the top 50 accounts. |
+| Owner | Engineering owns validation and release enforcement; AI Quality owns evaluation coverage and monitoring; Product owns risk acceptance and the final ship-or-hold recommendation. |
+
+**Threshold evidence:** The rule check caught 1/1 P0 failures with 0 misses and 0 false alarms; the safety rule and judge also caught 1/1. Additional test cases are required to validate the threshold.
 
 ## Messages
 
